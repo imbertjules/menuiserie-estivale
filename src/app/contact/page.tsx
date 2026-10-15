@@ -5,6 +5,7 @@ import { beyond, beyondMeta, brand } from "@/lib/brand";
 export const metadata: Metadata = {
   title: "Contact",
   description: `Écrire à ${brand.name}. ${brand.frame} : ${brand.route}. ${brand.trial}. ${beyondMeta}`,
+  alternates: { canonical: "/contact" },
 };
 
 export default function ContactPage() {

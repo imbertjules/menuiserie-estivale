@@ -7,6 +7,7 @@ import { withPlanters, withoutPlanters } from "@/lib/portfolio";
 export const metadata: Metadata = {
   title: "Réalisations",
   description: `Quelques exemples : Drouant, Labess et Melt, parmi d’autres réalisations. ${brand.frame} : ${brand.route}. ${brand.trial}.`,
+  alternates: { canonical: "/realisations" },
 };
 
 export default function RealisationsPage() {

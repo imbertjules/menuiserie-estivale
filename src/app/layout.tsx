@@ -3,6 +3,7 @@ import { Fraunces, Outfit } from "next/font/google";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { beyondMeta, brand } from "@/lib/brand";
+import { siteUrl } from "@/lib/site";
 import "./globals.css";
 
 const outfit = Outfit({
@@ -18,6 +19,7 @@ const fraunces = Fraunces({
 const description = `${brand.name} dessine et pose des terrasses pour les restaurants. ${brand.frame} : ${brand.route}. ${brand.trial}. ${beyondMeta}`;
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: {
     default: `${brand.name} — terrasses de restaurants, ${brand.frame}`,
     template: `%s · ${brand.name}`,
