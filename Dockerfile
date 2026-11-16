@@ -27,8 +27,7 @@ ENV NODE_ENV=production \
     PORT=3000 \
     HOSTNAME=0.0.0.0
 RUN addgroup -g 1001 -S nodejs && adduser -S nextjs -u 1001
-# sharp : requis par l'optimiseur d'images de next/image, absent de la sortie standalone
-RUN npm install --omit=dev --no-save sharp@0.35.5 && npm cache clean --force
+# sharp (optimiseur d'images de next/image) est déjà tracé dans la sortie standalone.
 COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
 COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
 COPY --from=builder --chown=nextjs:nodejs /app/public ./public
