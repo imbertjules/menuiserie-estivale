@@ -2,6 +2,7 @@
   "name": "terrasses-restaurants-paris",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@10.34.9",
   "scripts": {
     "dev": "next dev",
     "build": "node scripts/fetch-photos.mjs && next build",
