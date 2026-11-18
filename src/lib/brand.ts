@@ -45,7 +45,7 @@ export const beyond = [
   {
     id: "rouen",
     city: "Rouen",
-    text: "Tournée programmée. Terrasses saisonnières sur places de stationnement, du 1er mars au 31 octobre. C’est la ville de pose hors alentours.",
+    text: "Pose en tournée régulière. Terrasses saisonnières sur places de stationnement, du 1er mars au 31 octobre.",
   },
   {
     id: "orleans",
