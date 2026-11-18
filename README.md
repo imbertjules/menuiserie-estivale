@@ -2,7 +2,7 @@
 
 Site vitrine de Menuiserie Estivale. L’atelier pose des terrasses pour les restaurants, sur-mesure ou en kit réglable, avec ou sans jardinières. Paris et alentours : Levallois, Neuilly, puis Versailles. Vincennes, à l’essai. Rouen : tournée programmée, terrasses saisonnières sur places de stationnement, du 1er mars au 31 octobre — la ville de pose hors alentours. Orléans : un aller-retour dans la journée, seulement quand plusieurs extensions de places de stationnement sont déjà signées. Reims : visites et devis seulement ; la réglementation terrasse n’a pas été trouvée, et l’atelier n’y installe pas de terrasse sur stationnement.
 
-Trois adresses : Drouant (place Gaillon), Labess (8 rue Aristide Bruant), Melt Oberkampf (74 rue de la Folie-Méricourt). La photo Drouant est le front de rue, jardinières et bornes, pas le gros plan de la petite terrasse de gauche. La photo Labess est un platelage ; une porte numérotée 5 est dans le cadre, donc on ne la légende pas comme le 8. Melt n’a pas de photo de terrasse. Détail dans `src/lib/cases.ts`.
+Deux adresses : Drouant (place Gaillon), Labess (8 rue Aristide Bruant). La photo Drouant est le front de rue, jardinières et bornes, pas le gros plan de la petite terrasse de gauche. La photo Labess est un platelage ; une porte numérotée 5 est dans le cadre, donc on ne la légende pas comme le 8. Détail dans `src/lib/cases.ts`.
 
 Le nom public est la constante `brandName` dans `src/lib/brand.ts`. Le mot-symbole, les titres et l’adresse de contact en découlent.
 

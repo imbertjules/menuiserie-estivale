@@ -43,20 +43,4 @@ export const cases: CaseStudy[] = [
     sourceUrl: "https://www.privateaser.com/lieu/63182-labess-piano-perche",
     sourceLabel: "Photo Privateaser",
   },
-  {
-    slug: "melt",
-    name: "Melt",
-    place: "Oberkampf, 74 rue de la Folie-Méricourt, 11e",
-    image: null,
-    imageAlt:
-      "Photo de terrasse manquante pour Melt Oberkampf.",
-    built:
-      "Terrasse devant la façade, 74 rue de la Folie-Méricourt. C’est l’adresse Oberkampf, pas les autres Melt.",
-    result:
-      "La photo de terrasse manque. Le site, Google Maps et la presse montrent la salle, les assiettes, ou la façade sans tables. On ne met pas ces vues à la place.",
-    covers: "Photo de terrasse manquante",
-    sourceUrl:
-      "https://www.google.com/maps/place/Melt/@48.8656108,2.3708026,17z",
-    sourceLabel: "Photo de terrasse manquante",
-  },
 ];
