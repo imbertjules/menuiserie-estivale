@@ -1,6 +1,6 @@
 # Menuiserie Estivale
 
-Site vitrine de Menuiserie Estivale. L’atelier pose des terrasses pour les restaurants, sur-mesure ou en kit réglable, avec ou sans jardinières. Paris et alentours : Levallois, Neuilly, puis Versailles. Vincennes, à l’essai. Rouen : tournée programmée, terrasses saisonnières sur places de stationnement, du 1er mars au 31 octobre — la ville de pose hors alentours. Orléans : un aller-retour dans la journée, seulement quand plusieurs extensions de places de stationnement sont déjà signées. Reims : visites et devis seulement ; la réglementation terrasse n’a pas été trouvée, et l’atelier n’y installe pas de terrasse sur stationnement.
+Site vitrine de Menuiserie Estivale. L’atelier pose des terrasses pour les restaurants, sur-mesure ou en kit réglable, avec ou sans jardinières. Paris et alentours : Levallois, Neuilly, puis Versailles. Vincennes, à l’essai. Rouen : tournée programmée, terrasses saisonnières sur places de stationnement, du 1er mars au 31 octobre. Orléans : un aller-retour dans la journée, seulement quand plusieurs extensions de places de stationnement sont déjà signées. Reims : visites et devis sur demande.
 
 Deux adresses : Drouant (place Gaillon), Labess (8 rue Aristide Bruant). Détail dans `src/lib/cases.ts`.
 
