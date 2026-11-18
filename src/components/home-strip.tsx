@@ -14,7 +14,7 @@ export function HomeStrip() {
                 Quelques exemples.
               </h2>
               <p className="mt-3 max-w-xl text-base leading-7 text-muted-foreground">
-                Drouant, Labess et Melt, parmi d’autres réalisations.
+                Drouant et Labess, parmi d’autres réalisations.
               </p>
             </div>
             <Link href="/realisations" className="text-sm font-medium text-[#1e4a38] underline">

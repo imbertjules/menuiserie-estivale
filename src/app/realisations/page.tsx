@@ -6,7 +6,7 @@ import { withPlanters, withoutPlanters } from "@/lib/portfolio";
 
 export const metadata: Metadata = {
   title: "Réalisations",
-  description: `Quelques exemples : Drouant, Labess et Melt, parmi d’autres réalisations. ${brand.frame} : ${brand.route}. ${brand.trial}.`,
+  description: `Quelques exemples : Drouant et Labess, parmi d’autres réalisations. ${brand.frame} : ${brand.route}. ${brand.trial}.`,
   alternates: { canonical: "/realisations" },
 };
 
@@ -20,7 +20,7 @@ export default function RealisationsPage() {
         Quelques exemples.
       </h1>
       <p className="mt-6 max-w-2xl text-lg leading-8 text-muted-foreground">
-        Drouant, Labess et Melt, parmi d’autres réalisations.
+        Drouant et Labess, parmi d’autres réalisations.
       </p>
       <p className="mt-4 max-w-2xl text-base leading-7">
         L’atelier se déplace à {brand.frame} : {brand.route}. {brand.trial}.
@@ -39,19 +39,9 @@ export default function RealisationsPage() {
         </div>
       </section>
 
-      <section className="mt-14 border border-border bg-[#faf6ef] p-6 md:p-8">
-        <p className="text-xs font-medium uppercase tracking-[0.18em] text-[#1e4a38]">
-          Oberkampf, 74 rue de la Folie-Méricourt, 11e
-        </p>
-        <h2 className="mt-2 font-display text-3xl tracking-tight">Melt</h2>
-        <p className="mt-4 max-w-2xl text-base leading-7">
-          Photo de terrasse manquante. On ne met pas la salle à la place.
-        </p>
-      </section>
-
       <div className="mt-14 border-t border-border pt-10">
         <p className="font-display text-3xl tracking-tight">
-          Votre trottoir n’est pas dans ces trois-là.
+          Votre trottoir n’est pas dans ces exemples ?
         </p>
         <Link
           href="/contact"

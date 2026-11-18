@@ -66,7 +66,7 @@ export function SiteFooter() {
         <p>
           © 2026 {brand.name}. Terrasses pour restaurants, {brand.frame}.
         </p>
-        <p>Quelques exemples : Drouant, Labess, Melt.</p>
+        <p>Quelques exemples : Drouant, Labess.</p>
       </div>
     </footer>
   );
