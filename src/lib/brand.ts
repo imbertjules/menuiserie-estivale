@@ -55,7 +55,7 @@ export const beyond = [
   {
     id: "reims",
     city: "Reims",
-    text: "Visites et devis seulement. La réglementation terrasse n’a pas été trouvée. On n’y installe pas de terrasse sur stationnement.",
+    text: "Visites et devis sur demande.",
   },
 ] as const;
 
