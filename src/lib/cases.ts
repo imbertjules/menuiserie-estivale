@@ -18,11 +18,11 @@ export const cases: CaseStudy[] = [
     place: "Place Gaillon, 2e",
     image: "/realisations/drouant-terrasse-places.jpg",
     imageAlt:
-      "Front de rue large de Drouant, place Gaillon, avec jardinières et bornes. Pas le gros plan de la petite terrasse de gauche.",
+      "Terrasse de Drouant, place Gaillon, avec jardinières et bornes.",
     built:
-      "La photo est le front de rue, large, avec les jardinières et les bornes. Ce n’est pas le gros plan de la petite terrasse de gauche, sur les places.",
+      "Front de rue avec jardinières et bornes, sur les places de stationnement.",
     result:
-      "Le nom public est Drouant, 16-18 place Gaillon. « Chez Druant » mène à la même maison. La petite terrasse de gauche n’est pas dans ce cadre.",
+      "Drouant, 16-18 place Gaillon.",
     covers: "Front de rue, jardinières et bornes",
     sourceUrl:
       "https://presseagence.fr/paris-drouant-un-lieu-unique-niche-sur-la-paisible-place-gaillon/",
@@ -34,12 +34,12 @@ export const cases: CaseStudy[] = [
     place: "8 rue Aristide Bruant, 18e",
     image: "/realisations/labess-rue-en-pente.jpg",
     imageAlt:
-      "Platelage en bois. Une porte numérotée 5 est dans le cadre. Labess est au 8, cette photo ne montre pas le 8.",
+      "Platelage en bois dans une rue en pente, Labess, Montmartre.",
     built:
-      "La photo est un platelage en bois. Une porte numérotée 5 est dans le cadre.",
+      "Platelage en bois, lames dans le sens de la pente.",
     result:
-      "Labess est au 8 rue Aristide Bruant. On ne légende pas cette photo comme le 8. L’enseigne est Labess.",
-    covers: "Platelage, porte 5 dans le cadre",
+      "Labess, rue Aristide Bruant, 18e.",
+    covers: "Platelage en pente, sans jardinière",
     sourceUrl: "https://www.privateaser.com/lieu/63182-labess-piano-perche",
     sourceLabel: "Photo Privateaser",
   },
