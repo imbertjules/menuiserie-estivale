@@ -1,6 +1,20 @@
-import { mkdir } from "node:fs/promises";
+import { access, mkdir } from "node:fs/promises";
 import { dirname } from "node:path";
 import sharp from "sharp";
+
+// Les photos sont versionnées dans public/realisations : on ne les retélécharge
+// que si elles manquent, pour qu'un build hors ligne reste possible.
+// PHOTOS_REFRESH=1 force le retéléchargement.
+const REFRESH = process.env.PHOTOS_REFRESH === "1";
+
+async function exists(path) {
+  try {
+    await access(path);
+    return true;
+  } catch {
+    return false;
+  }
+}
 
 const downloads = [
   [
@@ -91,9 +105,11 @@ async function crop(src, dest, [l, t, r, b]) {
 }
 
 for (const [url, dest] of downloads) {
+  if (!REFRESH && (await exists(dest))) continue;
   await download(url, dest);
 }
 
 for (const item of crops) {
+  if (!REFRESH && (await exists(item.dest))) continue;
   await crop(item.src, item.dest, item.box);
 }
