@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // Image de production autoportée (Dockerfile Coolify) : .next/standalone
+  output: "standalone",
 };
 
 export default nextConfig;
